@@ -29,20 +29,20 @@ app.use("/image", imageRoutes);
 const homeRoutes = require("../routes/home.routes");
 app.use("/", homeRoutes);
 
-app.get('/pages/about',function(req,res){
-    res.render('pages/about');
-})
-app.get('/pages/contact',function(req,res){
-    res.render('pages/contact');
-})
-app.get('/pages/privacy',function(req,res){
-    res.render('pages/privacy');
-})
-app.get('/pages/terms',function(req,res){
-    res.render('pages/terms');
-})
-app.get('/pages/dmca',function(req,res){
-    res.render('pages/dmca');
-})
+// app.get('/pages/about',function(req,res){
+//     res.render('pages/about');
+// })
+// app.get('/pages/contact',function(req,res){
+//     res.render('pages/contact');
+// })
+// app.get('/pages/privacy',function(req,res){
+//     res.render('pages/privacy');
+// })
+// app.get('/pages/terms',function(req,res){
+//     res.render('pages/terms');
+// })
+// app.get('/pages/dmca',function(req,res){
+//     res.render('pages/dmca');
+// })
 
 module.exports = app;
